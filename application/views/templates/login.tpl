@@ -4,7 +4,7 @@
 
 {block name=page}
 
-
+	
 	<div class="section p-0 m-0 h-100 position-absolute"
 		style="background: url('{$dol_url_root}/viewimage.php?cache=1&noalt=1&modulepart=mycompany&file=logos/background_dolibarr.jpg') center center no-repeat; background-size: cover;">
 	</div>

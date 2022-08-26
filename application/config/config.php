@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://ecommerce.test';
+$config['base_url'] = getenv('APP_URL');
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'https://ecommerce.test';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = getenv('APP_INDEX_PAGE');
 
 /*
 |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= getenv('APP_LANGUAGE');
 
 /*
 |--------------------------------------------------------------------------
