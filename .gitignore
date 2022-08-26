@@ -36,7 +36,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /resources
 
 #Templates Smarty
-!application/views/templates_c
+application/views/templates_c
 
 **/.env
 .env
