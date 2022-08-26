@@ -1,5 +1,5 @@
 .DS_Store
-**/.env
+
 
 application/cache/*
 !application/cache/index.html
@@ -37,3 +37,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 #Templates Smarty
 !application/views/templates_c
+
+**/.env
+.env

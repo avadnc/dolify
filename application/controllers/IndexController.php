@@ -60,7 +60,7 @@ class IndexController extends CI_Controller
 
 		} else {
 
-			include_once DOLIBARR_APP . '/core/lib/security2.lib.php';
+			include_once getenv('DOLIBARR_APP') . '/core/lib/security2.lib.php';
 			$username = $this->input->post('login-form-username');
 			$password = $this->input->post('login-form-password');
 
